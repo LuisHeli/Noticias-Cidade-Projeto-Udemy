@@ -26,21 +26,21 @@ header {
     left: 1000px;
     bottom: 60px;
 }
-ul {
+.nav-cabecalho {
     position: relative;
     width: 780px;
     top: -125px;
     left: 280px;
     background-color: #B1002F;
 }
-li {
+.nav-cabecalho li {
     position: relative;
     display: inline-block;
     width: 85px;
     padding: 5px;
     text-align: center;
 }
-li a {
+.nav-cabecalho li a {
     position: relative;
     display: inline-block;
     font-size: 1.2em;
@@ -48,27 +48,75 @@ li a {
     text-decoration: none;
     width: 90px;
 }
-li:hover, .selecionado {
+.nav-cabecalho li:hover, .selecionado {
     background-color: red;
 }
 /* Noticias */
 
 main {
-    width: 1110px;
+    width: 930px;
     height: 800px;
     position: relative;
-    left: 200px;
+    left: 280px;
     background-image: url(_imagens/fundo-caixa.png);
 }
 /* Barra Nav Horizontal */
 
 .display-navHorizontal {
-    width: 260px;
+    width: 240px;
+    display: inline-block;
+}
+.display-h2-nav-horizontal {
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 200px;
+    display: inline-block;
+}
+h2 {
+    background-color: #294970;
+    color: white;
+    font-size: 1.5em;
+    padding: 3px;
+}
+.ul-nav-horizontal {
+    list-style: none;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 14px;
+    background-color: white;
+}
+.ul-nav-horizontal li {
+    padding-left: 8px;
+    padding: 8px;
+}
+.ul-nav-horizontal a {
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.ul-nav-horizontal a:hover {
+    color: rgb(114, 114, 114);
+    transition: 300ms;
 }
 /* Barra Notícias 1 Centro */
 
 .display-bar1 {
     width: 412px;
+    display: inline-block;
+    position: relative;
+    bottom: 281px;
+}
+.h2-display-sec-1 {
+    display: inline-block;
+    width: 310px;
+}
+.sec-1-noticia {
+    background-color: white;
+    position: relative;
+    top: 14px;
 }
 /* Barra Notícias 2 Direito */
 

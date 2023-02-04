@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --pColor: white
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+
+header {
+    background-image: url(_imagens/fundo.png);
+    height: 233px;
+}
+.display-logo {
+    position: relative;
+    top: 20px;
+    left: 260px;
+}
+.display-mapa{
+    position: relative;
+    left: 1000px;
+    bottom: 60px;
+}
+ul {
+    position: relative;
+    width: 780px;
+    top: -125px;
+    left: 280px;
+    background-color: #B1002F;
+}
+li {
+    position: relative;
+    display: inline-block;
+    width: 85px;
+    padding: 5px;
+    text-align: center;
+}
+li a {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2em;
+    color: var(--pColor);
+    text-decoration: none;
+    width: 90px;
+}
+li:hover, .selecionado {
+    background-color: red;
+}
+/* Noticias */
+
+main {
+    width: 1110px;
+    height: 800px;
+    position: relative;
+    left: 200px;
+    background-image: url(_imagens/fundo-caixa.png);
+}
+/* Barra Nav Horizontal */
+
+.display-navHorizontal {
+    width: 260px;
+}
+/* Barra Notícias 1 Centro */
+
+.display-bar1 {
+    width: 412px;
+}
+/* Barra Notícias 2 Direito */
+
+.display-bar2 {
+    width: 390px;
+}

@@ -55,7 +55,8 @@ header {
 
 main {
     width: 930px;
-    height: 800px;
+    height: 900px;
+    top: 10px;
     position: relative;
     left: 280px;
     background-image: url(_imagens/fundo-caixa.png);
@@ -65,6 +66,8 @@ main {
 .display-navHorizontal {
     width: 240px;
     display: inline-block;
+    position: relative;
+    bottom: 340px;
 }
 .display-h2-nav-horizontal {
     position: relative;
@@ -101,28 +104,122 @@ h2 {
     color: rgb(114, 114, 114);
     transition: 300ms;
 }
+#h2-display-id-nav-horizontal {
+    position: relative;
+    top: 40px;
+}
+#p-display-email {
+    position: relative;
+    top: 65px;
+    left: 15px;
+}
+#box {
+    height: 20px;
+    padding: 5px;
+    border: solid 0.5px rgba(37, 196, 196, 0.451);
+}
+#button {
+    position: relative;
+    top: 5px;
+    height: 35px;
+    width: 75px;
+    background-color: #B10030;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 500;
+    border: none;
+}
 /* Barra Notícias 1 Centro */
 
 .display-bar1 {
     width: 412px;
     display: inline-block;
     position: relative;
-    bottom: 281px;
+    bottom: 5px;
 }
 .h2-display-sec-1 {
     display: inline-block;
     width: 310px;
 }
+#h2-display-id-sec-1 {
+    position: relative;
+    top: 30px;
+}
 .sec-1-noticia {
     background-color: white;
     position: relative;
     top: 14px;
+    width: 310px;
+    height: 320px;
 }
 .h3-display-sec-1 {
+    width: 260px;
     background-image: linear-gradient(to top, #A6002D, #940343);
 }
 .h3-display-sec-1 h3 {
+    font-size: 1.05em;
     color: white;
+}
+.img-1-display-sec-1 {
+    position: relative;
+    bottom: 5px;
+    padding-top: 10px;
+}
+.img-1-sec-1 {
+    width: 310px;
+}
+
+
+#sec-1-id-noticia {
+    position: relative;
+    height: 400px;
+    top: 50px;
+}
+.img-2-display-sec-1 {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    
+    padding-top: 10px;
+}
+.img-2-sec-1 {
+    width: 100px;
+}
+.span-sec-1-noticia {
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+    left: 124px;
+    width: 100%;
+
+    font-size: 1em;
+    color: #294970;
+    font-weight: 400;
+}
+.p-sec-1-noticia {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 25px;
+    bottom: 70px;
+
+    font-size: 0.94em;
+    font-weight: 600;
+}
+#thumb1 {
+
+}
+#thumb2 {
+    position: relative;
+    bottom: 20px;
+}
+#thumb3 {
+    position: relative;
+    bottom: 40px;
+}
+#thumb4 {
+    position: relative;
+    bottom: 60px;
 }
 /* Barra Notícias 2 Direito */
 

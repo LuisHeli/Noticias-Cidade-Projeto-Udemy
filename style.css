@@ -118,6 +118,12 @@ h2 {
     position: relative;
     top: 14px;
 }
+.h3-display-sec-1 {
+    background-image: linear-gradient(to top, #A6002D, #940343);
+}
+.h3-display-sec-1 h3 {
+    color: white;
+}
 /* Barra Notícias 2 Direito */
 
 .display-bar2 {

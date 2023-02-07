@@ -224,5 +224,40 @@ h2 {
 /* Barra Notícias 2 Direito */
 
 .display-bar2 {
-    width: 390px;
+    width: 300px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 855px;
+    right: 20px;
+}
+.h2-display-sec-2 {
+    width: 320px;
+    float: right;
+}
+.sec-2-noticia{
+    background-color: white;
+    position: relative;
+    top: 52px;
+    width: 310px;
+    height: 320px;
+    right: 20px;
+} 
+.h3-display-sec-2 {
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    padding: 2px;
+    background-image: linear-gradient(to top, #A6002D, #940343);
+}
+.h3-display-sec-2 h3 {
+    width: 100%;
+    font-size: 1.05em;
+    font-weight: 900;
+    color: white;
+}
+.img-1-display-sec-2 {
+    position: relative;
+    bottom: 45px;
+    padding-top: 10px;
 }

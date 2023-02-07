@@ -12,6 +12,9 @@
 
 /* Cabeçalho */
 
+body {
+    
+}
 header {
     background-image: url(_imagens/fundo.png);
     height: 233px;
@@ -160,7 +163,7 @@ h2 {
     font-size: 1.05em;
     color: white;
 }
-.img-1-display-sec-1 {
+mg-1-display-sec-1 {
     position: relative;
     bottom: 5px;
     padding-top: 10px;
@@ -260,4 +263,42 @@ h2 {
     position: relative;
     bottom: 45px;
     padding-top: 10px;
+}
+.sec-2-noticia-2 {
+    background-color: white;
+    position: relative;
+    top: 46px;
+    width: 320px;
+    height: 400px;
+    right: 12px;
+}
+.img-2-display-sec-2 {
+    position: relative;
+    display: inline-block;
+    bottom: 30px;
+    left: 18px;
+}
+.img-2-sec-2 {
+    width: 100px;
+}
+.span-sec-2-noticia {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    left: 124px;
+    width: 100%;
+
+    font-size: 1em;
+    color: #294970;
+    font-weight: 400;
+}
+.p-sec-2-noticia {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 36px;
+    bottom: 97px;
+
+    font-size: 0.94em;
+    font-weight: 600;
 }

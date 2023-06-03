@@ -1,27 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-.div1 {
-    width: 350px;
-    background-color: yellow;
-    height: 800px;
+
+header {
+    background-image: url(_imagens/fundo.png);
+    height: 232px;
+}
+header img.logo {
     position: relative;
-    margin: auto;
+    left: 220px;
+    padding: 20px;
 }
-.div2 {
-    float: right;
+
+/* Cabeçalho */
+
+.barra-vert {
     position: relative;
-    right: 10px;
-    top: 10px;
+    width: 700px;
+    margin: 0 auto;
 }
-ul {
+header ul {
+    display: inline-block;
+    width: 800px;
+    background-color: #B1002F;
     list-style: none;
 }
-img {
-    width: 150px;
+header li {
+    padding: 15px;
+    display: inline-block;
+    float: left;
 }
-li {
-    font-size: 1em;
+header ul li a {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
 }

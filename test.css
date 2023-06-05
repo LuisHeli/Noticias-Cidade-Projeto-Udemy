@@ -67,6 +67,7 @@ main h1 {
 
 .art1 {
     width: 210px;
+    float: left;
 }
 .art1 ul {
     list-style: none;
@@ -97,4 +98,35 @@ main h1 {
     font-size: 1em;
     background-color: #B10030;
     color: white;
+}
+
+/* artigo 2 */
+
+.art2 {
+    width: 310px;
+    float: left;
+    padding-left: 30px;
+}
+.art2 div {
+    margin-top: 15px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+.art2 h2 {
+    font-size: 1.1em;
+    color: white;
+    background-color: #99023E;
+}
+.doctor {
+    width: 310px;
+}
+.art2 p {
+    font-size: 1em;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.art2 a {
+    font-size: 1em;
+    color: #99023E;
+    padding-top: 5px;
 }

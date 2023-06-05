@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background: url(_imagens/fundo.png) repeat-x;
+    height: 256px;
+}
+.logo {
+    display: block;
+}
+.container {
+    padding-top: 30px;
+    width: 800px;
+    background: url(_imagens/detalhe-topo.png) no-repeat right top;
+    margin: 0 auto;
+}
+.container ul {
+    list-style: none;
+    background-color: #B1002F;
+    float: left;
+    margin-top: 40px;
+}
+.container ul li {
+
+    float: left;
+}
+.container ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    color: white;
+    font-weight: 600;
+}

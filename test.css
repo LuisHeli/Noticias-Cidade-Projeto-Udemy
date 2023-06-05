@@ -6,37 +6,95 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background: url(_imagens/fundo.png) repeat-x;
+}
+
 header {
-    background-image: url(_imagens/fundo.png);
-    height: 232px;
+    height: 210px;
+    margin-top: 30px;
 }
-header img.logo {
-    position: relative;
-    left: 220px;
-    padding: 20px;
+.logo {
+    display: block;
 }
-
-/* Cabeçalho */
-
-.barra-vert {
-    position: relative;
-    width: 700px;
-    margin: 0 auto;
-}
-header ul {
-    display: inline-block;
+.top {
     width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    background: url(_imagens/detalhe-topo.png) no-repeat right top;
+}
+.top ul {
+    margin-top: 35px;
     background-color: #B1002F;
     list-style: none;
-}
-header li {
-    padding: 15px;
-    display: inline-block;
     float: left;
 }
-header ul li a {
-    color: white;
-    font-size: 1.3em;
-    font-weight: 500;
+.top ul li {
+    float: left;
+}
+.top ul li a {
     text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 0.9em;
+    padding: 0.7em 1.5em;
+    font-weight: 600;
+}
+.selecionado {
+    background-color: red;
+}
+.top ul li:hover {
+    background-color: red;
+    transition: 500ms;
+}
+
+/* MAIN */
+
+main {
+    background: url(_imagens/fundo-caixa.png);
+    width: 880px;
+    margin: 0 auto;
+    padding: 15px;
+    height: 900px;
+}
+main h1 {
+    background-color: #294970;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.art1 {
+    width: 210px;
+}
+.art1 ul {
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.art1 ul li {
+    background-color: white;
+    padding-top: 10px;
+}
+.art1 ul li a {
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.p-input {
+    padding-top: 20px;
+}
+.mail {
+    padding: 5px;
+    border: solid 1px rgba(0, 255, 255, 0.437);
+}
+.botao {
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    font-size: 1em;
+    background-color: #B10030;
+    color: white;
 }

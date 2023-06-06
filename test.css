@@ -130,3 +130,94 @@ main h1 {
     color: #99023E;
     padding-top: 5px;
 }
+.img_mundo {
+    width: 100px;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+}
+h3 {
+    display: inline-block;
+    font-size: 1em;
+    color: #3E7AB9;
+    font-weight: 400;
+}
+.art2 ul {
+    list-style: none;
+}
+.art2 ul li {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc7d;
+    height: 65px;
+}
+.art2 ul li a {
+    color: black;
+    font-size: 1em;
+}
+
+/* artigo 3 */
+
+.art3 {
+    width: 300px;
+    float: left;
+    padding-left: 25px;
+}
+.art3 h2 {
+    font-size: 1.1em;
+    color: white;
+    background-color: #99023E;
+}
+.img_taxi {
+    width: 300px;
+}
+.art3 div {
+    margin-top: 15px;
+    background-color: white;
+    padding-bottom: 25px;
+    margin-bottom: 12px;
+}
+.art3 p {
+    font-size: 1em;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.art3 a {
+    font-size: 1em;
+    color: #99023E;
+    padding-top: 5px;
+}
+.art3 ul {
+    list-style: none;
+}
+.img_taxi_art3 {
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+.art3 ul li {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc7d;
+    height: 65px;
+}
+
+.art3 h3 {
+    font-size: 1em;
+    font-weight: 400;
+}
+.art3 p {
+    font-size: 1em;
+    font-weight: 600;
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    background-color: #294970;
+    height: 100px;
+}
+footer h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
